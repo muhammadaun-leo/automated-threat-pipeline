@@ -1,0 +1,13 @@
+{
+    "filename": "sample_02.bin",
+    "timestamp": "2026-11-01T18:36:45.581696+00:00",
+    "size_bytes": 24,
+    "hashes": {
+        "md5": "b5f4b5ce570f929824ce3c0fdb3f6685",
+        "sha1": "9ca544ae793de389bdbd2b093117bc1abea03dc3",
+        "sha256": "5731acfde077c033c9214342d04b729fe117693422febfc5b1544499a829fd0c"
+    },
+    "virustotal": {
+        "status": "not_found"
+    }
+}

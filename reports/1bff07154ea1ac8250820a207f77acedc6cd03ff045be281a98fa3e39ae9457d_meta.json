@@ -1,0 +1,19 @@
+{
+    "filename": "test_malware.bin",
+    "timestamp": "2026-11-01T18:20:48.805213",
+    "size_bytes": 35,
+    "hashes": {
+        "md5": "be33494114a7b33d8708639b6fb15944",
+        "sha1": "d20be08f4d992420d86119e5dc93ea9d200afb37",
+        "sha256": "1bff07154ea1ac8250820a207f77acedc6cd03ff045be281a98fa3e39ae9457d"
+    },
+    "status": "ingested",
+    "virustotal": {
+        "malicious": 1,
+        "suspicious": 0,
+        "undetected": 60,
+        "harmless": 0,
+        "meaningful_name": "eicar-com.txt",
+        "popular_threat_classification": {}
+    }
+}
