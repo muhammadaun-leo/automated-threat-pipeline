@@ -5,10 +5,11 @@ import requests
 from dotenv import load_dotenv
 
 # Load environment variables
+BASE_DIR = os.path.expanduser("~/threat_pipeline")
 load_dotenv(os.path.expanduser("~/threat_pipeline/.env"))
 VT_API_KEY = os.getenv("VT_API_KEY")
 
-BASE_DIR = os.path.expanduser("~/threat_pipeline")
+
 REPORTS_DIR = os.path.join(BASE_DIR, "reports")
 LOG_DIR = os.path.join(BASE_DIR, "logs")
 
