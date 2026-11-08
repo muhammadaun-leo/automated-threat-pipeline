@@ -6,7 +6,7 @@ import yara
 from concurrent.futures import ThreadPoolExecutor
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
-from vt_enrich import check_virustotal
+from vt_enrich import query_virustotal
 
 # Thread pool for non-blocking concurrent event processing
 executor = ThreadPoolExecutor(max_workers=4)
@@ -71,7 +71,7 @@ def process_sample(file_path):
         print(f"  [>] YARA Matches: {yara_matches}")
         
         # 3. VirusTotal Cloud Enrichment
-        vt_data = check_virustotal(hashes['sha256'])
+        vt_data = query_virustotal(hashes['sha256'])
         
         # 4. Generate Structured JSON Report
         report = {
